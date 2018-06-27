@@ -1,0 +1,530 @@
+﻿
+body {
+    background-image:url("../images/other/tlo.png");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: 110%;   
+}
+
+#container{
+    width:80%;
+    margin:auto;
+}
+header{
+    border-radius: 16px 16px 0px 0px;
+    background-image:url("../images/other/tloHead.png");
+    background-repeat:no-repeat;
+    background-size: 110%;
+    padding:10px;
+    height:110px;
+}
+
+nav{    
+    height:37px;
+    background:linear-gradient( to right,#aa80ff 0%,#ccb3ff 15%, white 50%, #ccb3ff 85%, #aa80ff 100%);
+    margin-bottom:10px;
+}
+section{  
+    background-color:white;
+    float:left;
+    width:100%;
+    min-height:700px;
+}
+
+footer{
+    border-top:double 1px black;
+    clear:both;
+    background-color:#aa80ff;
+    border-radius: 0px 0px 5px 5px;
+}
+
+p{
+    padding-bottom:10px;
+    padding-top:10px;
+    display:inline-table;
+    padding-left:20px;
+    padding-right:20px;
+    font-size:large;
+    
+   margin:2px;
+}
+img{
+    
+margin:10px 2% 10px 2%;
+    width:45%;
+    float:right;
+    border-radius: 7px;
+    
+}
+#wDialogu{
+    width:100px;
+    float:right;
+}
+#nrTopr{
+    margin-left:10%;
+    width:80%;
+    float:none;
+}
+.link{
+    line-height:30px;
+    width:110%;
+    margin:2px 2%;
+    float:none;
+}
+img.link:hover{
+    border-radius:7px;
+    border:2px solid blue;
+    margin:0 1px;
+}
+.link:hover{
+    font-weight:bold;
+}
+
+
+.strzalka{
+    margin:2% 5%;
+    float:right;
+    width:2%;
+}
+.strzalka:hover{
+    animation:strzalka;
+    animation-duration:1s;
+    animation-fill-mode:forwards;
+}
+.cytat{
+    width:70%;
+    margin: 0 15%;
+}
+.smallImg{
+    width:32%;
+}
+.toLeft{
+    float:left;
+}
+h1{
+    padding-left:10px;
+    font-family: Verdana, 'Book Antiquw', Helvetica;
+    margin:0;
+    text-shadow: 2px 2px 3px #aa80ff;
+}h3{
+     padding-top:10px;
+     font-family:cursive ;
+     text-align:center;
+     margin:0;
+ }
+ h4{
+     padding-left:5%;
+     color:blueviolet;
+     text-shadow:2px 2px 2px #b366ff;
+     font-size:20px;
+ }
+ h5{
+     padding-left:5%;
+     font-size:17px;
+
+ }
+.logowanie{
+	width:38%;
+	padding-left: 12%;
+	padding-top: 30px;
+}
+.logowanie p{
+	padding:0;
+	margin:0;
+	color:red;
+	font-size:12px;
+
+}
+#form{
+	margin:50px;
+}
+
+
+ol{
+	float:left;
+    width:50%;
+    list-style-type:none;
+    margin:auto; 
+	margin-left:25%;
+	margin-right:0;
+    padding:0;
+    height:2em; 
+    line-height:2em;
+    text-align:center;
+}
+.menu ul{
+    list-style-type:none;
+    padding:0;
+    margin:0;   
+    visibility:hidden;
+    position:absolute;
+}
+.menu li{
+    background-color:#aa80ff;
+    border-top:1px solid white;
+    height:32px;
+    position:relative;
+    font-family:'Times New Roman', Times, serif;
+    font-size:13px;
+    color:white;
+}
+.menu li:hover{
+    background-color:#bb99ff;
+}
+ .menu > li:hover{
+ border-top:10px #3d0099 solid;
+ }
+.menu li:hover > ul{
+   visibility:visible;
+   width:100%;
+}
+ .menu > li{
+    float:left;
+    margin-right:2px;
+   border-top: 5px #3d0099 solid;
+   width:24%;
+}
+.menu li > a{
+    color:white;
+    display:block;
+    text-decoration:none;   
+}
+ .menu img{
+     margin:4px;
+     float:none;
+     width:auto;
+     border:none;
+ }
+#log{
+	 height:100%;
+	 float:right;
+	 margin:0;
+	 margin-top:1%;
+	 margin-right:10px;
+	 padding:0;
+}
+ #log a{
+	 padding:4%;
+	 background-color:#bb99ff;
+	 color:white;
+     text-decoration:none;   
+ }
+
+ .galery{
+	 margin:2%;
+	 width:96%;
+ }
+.galery td{
+	 border:none;
+ }
+ .galeryRight{
+	 width:270px;
+	 
+ }
+ 
+#galeria {
+    background:radial-gradient( #3d0099, white 95%);
+    list-style-type: none;
+    height: 750px;
+    width: 98%;
+    margin: 1%;
+	margin-right:0;
+    padding:0;
+    overflow: hidden;
+    float: left;
+    text-align: center;
+}
+#galeria li{
+  padding: 25px 0 17000px 0;
+}
+ #galeria img{
+	 margin:0;
+    float:none;   
+      width:85%;
+	  max-height:85%;
+ }
+  #miniatury{
+    float:right;
+    background-color:black;
+    margin:1%;
+	margin-left:0;
+    width:265px;
+    height:730px;
+    border: 10px solid #bed5cd;
+    overflow-y: scroll;
+}
+  #listaMiniatur{
+	  	color:white;
+
+    list-style-type: none;
+    width:245px;
+    margin:1%;
+	margin-left:0;
+	padding-left:0;
+    padding:1%;
+}
+  #miniatury p{
+      padding:1px;
+      margin:0;
+      margin-bottom:10px;
+      text-align:center;
+      color:white;
+      font-size:12px;
+  }
+ #miniatury img{
+	 float:left;
+    margin:1px;
+	width: 200px;
+ }
+ li a{
+    transition-duration:5s;
+ }
+ .miniatury img:hover{
+     border:3px solid green;
+ }
+.check{
+	float:right;
+	width:10px;
+}
+
+table{
+    border-collapse:collapse;
+    margin:5% 10%;
+    width:80%;
+}
+.tabWDialogu{
+    margin:1px;
+    width:100%;
+}
+th{
+    background-color:#bb99ff;
+}
+ td, th{
+     border-collapse:collapse;
+    text-align:center;
+    border-left:1px solid black;
+    border-right:1px solid black;
+    padding:7px;
+}
+.parzysta{
+    background-color:#D6C1FF;
+}
+caption{
+    padding:7px;
+}
+
+
+@keyframes strzalka{
+    0%{height:20px;}
+    100%{height:30px;}
+}
+
+
+
+.bezkrawedzi td{
+    border:none;
+}
+table label{
+    width:35%;
+    margin-left:20.5%;
+    float:left;
+    margin-bottom:40px;
+    background-color:lightgray;
+}
+.rightLabel{
+     margin-left:1%;
+}
+table img{
+    width:300px;
+    margin-left:15%;
+    float:none;
+}
+#spr{
+    display: block;
+    margin: 20px;
+    text-align:center;
+    font-weight:bold;
+    font-size:22px;
+    color:#660066;
+}
+
+
+
+#dialog {
+    background-color: #ccccff;
+    padding:7px;
+    display:none;
+}
+.ui-dialog-titlebar{
+    background-color:#8080ff;
+    border-radius:10px 10px 0 0;
+    height:30px;
+}
+.ui-dialog-title{
+    line-height:30px;
+    margin:100px;
+}
+.ui-dialog-titlebar-close{
+    display: none;
+}
+.ui-dialog-buttonpane{
+    border-top:1px solid gray;
+    border-radius:0 0 5px 5px;
+    padding:4px;
+    background-color:#ccccff;
+}
+
+
+
+.ui-accordion-header{
+    background-color:#9999ff;
+    border-radius:2px;
+    padding:7px 5px;
+    text-shadow:none;
+    cursor:pointer;
+    color:black;
+}
+
+
+@media all and (max-width: 1000px) and (min-width: 800px) {
+    body{
+        margin:0;
+    }
+    #container{
+        width:100%;
+    }
+    header{
+        border-radius:0;
+    }
+     nav{
+        margin:0;
+    }
+    footer{
+        border-radius:0;
+    }
+    ol.menu{
+        width:70%;
+    }
+     ol.menu > li:hover{
+        border-top:5px #3d0099 solid;
+    }
+
+     .link{
+         font-size:14px;
+     }
+}
+
+
+@media all and (max-width: 800px) and (min-width: 500px) {
+  body{
+        margin:0;
+    }
+    #container{
+        width:100%;
+    }
+    header{
+        border-radius:0;
+        background-size:150%;
+        height:60px;
+    }
+     nav{
+        margin:0;
+        height:29px;
+    }
+    footer{
+        border-radius:0;
+    }
+    ol.menu{
+        width:100%;
+        line-height:27px;
+    }
+     ol.menu > li:hover{
+        border-top:5px #3d0099 solid;
+    }     
+     h1{
+         font-size:20px;
+     }
+    h3{
+        font-size:13px;
+    }
+    p{
+        font-size:small;
+    }
+    aside p{
+        margin:0;
+        padding:0 10px;
+    }
+    .menu > li{
+        width:24.8%;
+        margin-right:0.2%;
+        z-index:1;
+    }
+    .menu li{
+        height:26px;
+    }
+    li > a{
+        font-size:12px;
+    }
+    .menu img{
+        width:23px;
+    }
+}
+
+
+@media all and (max-width: 500px) {
+  body{
+        margin:0;
+    }
+    #container{
+        width:100%;
+    }
+    header{
+        border-radius:0;
+        background-size:150%;
+        height:40px;
+    }
+     nav{
+        margin:0;
+        height:50px;
+    }
+    footer{
+        border-radius:0;
+    }
+    ol.menu{
+        width:100%;
+        line-height:23px;
+    }
+     ol.menu > li:hover{
+        border-top:2px #3d0099 solid;
+    }
+    .menu > li {
+        border-width:2px;
+    }
+     h1{
+         font-size:14px;
+     }
+     h4{
+         font-size:14px;
+     }
+    h3{
+        font-size:11px;
+    }
+    p{
+        font-size:smaller;
+    }
+    .menu > li{
+        width:49.8%;
+        margin-right:0.2%;
+        z-index:1;
+    }
+    .menu li{
+        height:23px;
+    }
+    li > a{
+        font-size:10px;
+    }
+    .menu img{
+        width:19px;
+    }
+}
+
